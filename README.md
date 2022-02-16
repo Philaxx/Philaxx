@@ -47,7 +47,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan dengan bijak.
 *   [Skyzu](https://github.com/Skyzu/skyzu-userbot)    skyzu-userbot
 *   [BDRL](https://github.com/Yansaii/Bdrl-Uerbot)     Bdrl-userbot
 *   [PHILAXX](https://github.com/Philaxx/Philax-Ubot)  Philaxx-Ubot
-*   DAN TERIMAKASIH KEPADA USERBOT LAINNYA ✨
+*   DAN TERIMAKASIH KEPADA UBOT LAINNYA ✨
 
 - 🔭 I’m currently working on ...
 - 🌱 I’m currently learning ...
