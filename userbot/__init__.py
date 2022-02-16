@@ -193,7 +193,9 @@ YOUTUBE_API_KEY = os.environ.get(
     "YOUTUBE_API_KEY") or "AIzaSyACwFrVv-mlhICIOCvDQgaabo6RIoaK8Dg"
 
 # Untuk Perintah .Philaxxalive
-PHILAXX_TEKS_KUSTOM = os.environ.get("PHILAXX_TEKS_KUSTOM", "I'am Using Philaxx-Ubot✨")
+PHILAXX_TEKS_KUSTOM = os.environ.get(
+    "PHILAXX_TEKS_KUSTOM",
+    "I'am Using Philaxx-Ubot✨")
 
 # Untuk Mengubah Pesan Welcome
 START_WELCOME = os.environ.get("START_WELCOME", None)
