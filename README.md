@@ -46,7 +46,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan dengan bijak.
 *   [Sendi](https://github.com/SendiAp/Rose-Userbot)   Rose-Userbot
 *   [Skyzu](https://github.com/Skyzu/skyzu-userbot)    skyzu-userbot
 *   [BDRL](https://github.com/Yansaii/Bdrl-Uerbot)     Bdrl-userbot
-*   [PHILAXX](https://github.com/Philaxx/Philax-Ubot)  Philaxx-Ubot
+*   [Philaxx](https://github.com/Philaxx/Philax-Ubot)  Philaxx-Ubot
 
 - 🔭 I’m currently working on ...
 - 🌱 I’m currently learning ...
