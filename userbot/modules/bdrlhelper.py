@@ -12,16 +12,16 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 async def usit(e):
     await e.edit(
         f"**Halo {DEFAULTUSER} Jika Anda Tidak Tau Perintah Untuk Memerintah Ku Ketik** `.help` Atau Bisa Minta Bantuan Ke:\n"
-        "\n[Telegram](t.me/Bdrllll)"
-        "\n[Repo](https://github.com/Yansaii/Bdrl-userbot)"
-        "\n[Instagram](instagram.com/kechili.8)")
+        "\n[Telegram](t.me/IDnyaPhilax)"
+        "\n[Repo](https://github.com/Philaxx/Philaxx-Ubot)"
+        "\n[Instagram](instagram.com/kimi_nonawa_)")
 
 
 @register(outgoing=True, pattern="^.vars$")
 async def var(m):
     await m.edit(
         f"**Disini Daftar Vars Dari {DEFAULTUSER}:**\n"
-        "\n[DAFTAR VARS](https://raw.githubusercontent.com/Yansaii/Bdrl-userbot/Bdrl-userbot/varshelper.txt)")
+        "\n[DAFTAR VARS](https://raw.githubusercontent.com/Philaxx/Philaxx-Ubot/Philaxx-Ubot/varshelper.txt)")
 
 
 CMD_HELP.update({
