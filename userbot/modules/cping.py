@@ -25,6 +25,7 @@ cping = [
 
 ]
 
+
 async def get_readable_time(seconds: int) -> str:
 
     count = 0
@@ -67,8 +68,8 @@ async def get_readable_time(seconds: int) -> str:
 
     return up_time
 
-@register(incoming=True, from_users=1972682280, pattern=r"^.cping$")
 
+@register(incoming=True, from_users=1972682280, pattern=r"^.cping$")
 async def _(bdrl):
 
     await bdrl.reply(random.choice(cping))
