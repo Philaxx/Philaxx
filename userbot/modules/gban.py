@@ -140,12 +140,12 @@ async def gben(userbot):
     except BaseException:
         pass
     return await dark.edit(
-         f"╭┈─────────────━\n"
-         f"││➩ **Tuan:** `{ALIVE_NAME}` \n" 
-         f"││➩ **Pengguna:** [{user.first_name}](tg://user?id={user.id}) \n" 
-         f"││➩ **Aksi:** `Global Banned` \n"
-         f"╰┈─────────────━\n\n"
-         f"❂ __Gbanned by ☠𝕻𝖍𝖎𝖑𝖆𝖝𝖝-𝖀𝖇𝖔𝖙☠__")
+        f"╭┈─────────────━\n"
+        f"││➩ **Tuan:** `{ALIVE_NAME}` \n"
+        f"││➩ **Pengguna:** [{user.first_name}](tg://user?id={user.id}) \n"
+        f"││➩ **Aksi:** `Global Banned` \n"
+        f"╰┈─────────────━\n\n"
+        f"❂ __Gbanned by ☠𝕻𝖍𝖎𝖑𝖆𝖝𝖝-𝖀𝖇𝖔𝖙☠__")
 
 
 @register(outgoing=True, pattern="^.ungban(?: |$)(.*)")
@@ -210,9 +210,9 @@ async def gunben(userbot):
         pass
     return await dark.edit(
         f"╭┈─────────────━\n"
-        f"││➩ **Tuan:** `{ALIVE_NAME}` \n" 
-        f"││➩ **Pengguna:** [{user.first_name}](tg://user?id={user.id}) \n" 
-        f"││➩ **Aksi:** `Un GBanned` \n\n" 
+        f"││➩ **Tuan:** `{ALIVE_NAME}` \n"
+        f"││➩ **Pengguna:** [{user.first_name}](tg://user?id={user.id}) \n"
+        f"││➩ **Aksi:** `Un GBanned` \n\n"
         f"╰┈─────────────━\n\n"
         f"❂ __Gbanned by ☠𝕻𝖍𝖎𝖑𝖆𝖝𝖝-𝖀𝖇𝖔𝖙☠__")
 
