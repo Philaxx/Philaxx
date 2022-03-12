@@ -115,7 +115,7 @@ async def repo_is_here(wannasee):
         "➣ **Owner Bot     :** [ʙᴅʀʟ](t.me/BukanBdrl)\n"
         "➣ **Support       :** [sᴜᴘᴘᴏʀᴛ](https://t.me/BdrlSupporrt)\n"
         "➣ **Channel       :** [ᴄʜᴀɴɴᴇʟ](https://t.me/TvoChanel)\n"
-  
+
     )
 
 
