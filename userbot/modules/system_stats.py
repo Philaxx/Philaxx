@@ -164,8 +164,8 @@ async def bot_ver(event):
         revout = str(stdout.decode().strip()) + str(stderr.decode().strip())
 
         await event.edit(
-            "**⚜-**☠𝕭𝖉𝖗𝖑-𝖀𝖘𝖊𝖗𝖇𝖔𝖙☠ Versi:** \n "
-            f"heads/𝕭𝖉𝖗𝖑-𝖀𝖘𝖊𝖗𝖇𝖔𝖙-0-x634i7u1"
+            "**⚜-**☠𝖕𝖍𝖎𝖑𝖆𝖝𝖝-𝖀𝖇𝖔𝖙☠ Versi:** \n "
+            f"heads/𝖕𝖍𝖎𝖑𝖆𝖝𝖝-𝖀𝖇𝖔𝖙-0-x634i7u1"
             "\n**⚜-**Revisi:**\n "
             f"{revout}"
         )
@@ -228,7 +228,7 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f" **☠𝕭𝖉𝖗𝖑-𝖀𝖘𝖊𝖗𝖇𝖔𝖙☠** \n\n"
+        f" **☠𝖕𝖍𝖎𝖑𝖆𝖝𝖝-𝖀𝖘𝖊𝖗𝖇𝖔𝖙☠** \n\n"
         f"\n__**{BDRL_TEKS_KUSTOM}**__\n\n\n"
         f"╭✠╼━━━━━━━━━━━━━━━✠╮\n"
         f"◙ `Name       :` {DEFAULTUSER} \n"
@@ -314,9 +314,9 @@ async def redis(alive):
         f"┣  `Branch   :` {UPSTREAM_REPO_BRANCH} \n"
         f"┣  `Bot Ver  :` {BOT_VER} \n"
         f"┣  `Modules  :` {len(modules)} Modules \n"
-        f"┣  `GitHub   :` [ʙᴅʀʟ-ᴜsᴇʀʙᴏᴛ](https://github.com/Yansaii/Bdrl-userbot) \n"
-        f"┣  `Support  :` [ᴄʜᴀɴɴᴇʟ](https://t.me/gabuuttty) \n"
-        f"┣  `Owner    :` [ʙᴅʀʟ](https://t.me/Bdrllll) \n"
+        f"┣  `GitHub   :` [ᴘʜɪʟᴀxx-ᴜʙᴏᴛ](https://github.com/Philaxx/Philaxx-Ubot) \n"
+        f"┣  `Support  :` [ᴄʜᴀɴɴᴇʟ](https://t.me/gbwrml) \n"
+        f"┣  `Owner    :` [ᴘʜɪʟᴀx](https://t.me/IDnyaPhilax) \n"
         f"┗━━━━━━━━━━━━━━━━━━━")
     if ALIVE_LOGO:
         try:
